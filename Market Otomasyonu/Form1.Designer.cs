@@ -1,6 +1,6 @@
 ﻿namespace Market_Otomasyonu
 {
-    partial class Form1
+    partial class Bakkalite
     {
         /// <summary>
         /// Required designer variable.
@@ -34,22 +34,23 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(163, 118);
+            this.button1.BackColor = System.Drawing.SystemColors.Info;
+            this.button1.Location = new System.Drawing.Point(107, 69);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 42);
             this.button1.TabIndex = 0;
             this.button1.Text = "bana tikla";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // Bakkalite
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 267);
+            this.ClientSize = new System.Drawing.Size(325, 192);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Bakkalite";
+            this.Text = "Bakkalite";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

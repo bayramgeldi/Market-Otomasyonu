@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Market_Otomasyonu
 {
-    public partial class Form1 : Form
+    public partial class Bakkalite : Form
     {
-        public Form1()
+        public Bakkalite()
         {
             InitializeComponent();
         }
@@ -25,6 +25,7 @@ namespace Market_Otomasyonu
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello Jeyhun, Hello Eziz");
+            
         }
     }
 }
