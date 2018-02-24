@@ -24,8 +24,14 @@ namespace Market_Otomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello Jeyhun, Hello Eziz");
+            MessageBox.Show("Merhaba Yönetici");
             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Merhaba Market Sahibi");
+
         }
     }
 }
