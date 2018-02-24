@@ -29,13 +29,25 @@
         private void InitializeComponent()
         {
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(163, 118);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 42);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "bana tikla";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(662, 416);
+            this.ClientSize = new System.Drawing.Size(458, 267);
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -46,6 +58,7 @@
         #endregion
 
         private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
