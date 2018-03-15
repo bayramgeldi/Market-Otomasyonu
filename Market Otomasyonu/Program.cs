@@ -19,4 +19,6 @@ namespace Market_Otomasyonu
             Application.Run(new Bakkalite());
         }
     }
+
+
 }
