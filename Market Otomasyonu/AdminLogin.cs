@@ -26,5 +26,25 @@ namespace Market_Otomasyonu
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = "admin"; string password = "admin";
+            
+            Form2 adminpanel = new Form2();
+
+
+            if (username == textBox1.Text && password == textBox2.Text)
+            {
+                adminpanel.ShowDialog();
+            }
+            else
+                MessageBox.Show("Şifre veya Kullanıcı adı hatalı");
+        }
+
+        private void button1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
     }
 }

@@ -31,8 +31,8 @@ namespace Market_Otomasyonu
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Merhaba Market Sahibi");
-
+            MarketLogin market = new MarketLogin();
+            market.ShowDialog();
         }
 
         private void aboutbtn_click(object sender, EventArgs e)
