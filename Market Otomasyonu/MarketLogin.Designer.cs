@@ -55,6 +55,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Giriş";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -101,6 +102,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "MarketLogin";
             this.Text = "Market Giriş Paneli";
+            this.Load += new System.EventHandler(this.MarketLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
