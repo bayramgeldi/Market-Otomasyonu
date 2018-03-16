@@ -28,6 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Text = "Form2";
+        }
+
+        #endregion
+=======
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -156,5 +164,6 @@
         private System.Windows.Forms.ToolStripMenuItem bakkalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ürünToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kampanyaToolStripMenuItem;
+>>>>>>> eb435731850581cfb7260efa22719b5e262763dc
     }
 }
