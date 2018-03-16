@@ -36,7 +36,8 @@ namespace Market_Otomasyonu
 
             if (username == textBox1.Text && password == textBox2.Text)
             {
-                
+                AdminPaneli adminpaneli = new AdminPaneli();
+                adminpaneli.ShowDialog();
             }
             else
                 MessageBox.Show("Şifre veya Kullanıcı adı hatalı");

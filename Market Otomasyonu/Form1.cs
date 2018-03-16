@@ -37,7 +37,8 @@ namespace Market_Otomasyonu
 
         private void aboutbtn_click(object sender, EventArgs e)
         {
-            
+            hakkinda about = new hakkinda();
+            about.ShowDialog();
         }
     }
 }
