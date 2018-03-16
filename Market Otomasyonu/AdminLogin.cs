@@ -31,12 +31,12 @@ namespace Market_Otomasyonu
         {
             string username = "admin"; string password = "admin";
             
-            Form2 adminpanel = new Form2();
+            
 
 
             if (username == textBox1.Text && password == textBox2.Text)
             {
-                adminpanel.ShowDialog();
+                
             }
             else
                 MessageBox.Show("Şifre veya Kullanıcı adı hatalı");

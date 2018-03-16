@@ -37,8 +37,7 @@ namespace Market_Otomasyonu
 
         private void aboutbtn_click(object sender, EventArgs e)
         {
-            AboutBox1 about = new AboutBox1();
-            about.ShowDialog();
+            
         }
     }
 }
