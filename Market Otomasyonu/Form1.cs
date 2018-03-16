@@ -24,14 +24,21 @@ namespace Market_Otomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Merhaba Yönetici");
-            
+            AdminLogin admin = new AdminLogin();
+            admin.ShowDialog();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Merhaba Market Sahibi");
+            MarketLogin market = new MarketLogin();
+            market.ShowDialog();
+        }
 
+        private void aboutbtn_click(object sender, EventArgs e)
+        {
+            AboutBox1 about = new AboutBox1();
+            about.ShowDialog();
         }
     }
 }

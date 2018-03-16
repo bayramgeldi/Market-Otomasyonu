@@ -28,23 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.aboutbtn = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // aboutbtn
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Info;
-            this.button1.BackgroundImage = global::Market_Otomasyonu.Properties.Resources.admin;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(12, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 120);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Yönetici";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.aboutbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.aboutbtn.Location = new System.Drawing.Point(246, 203);
+            this.aboutbtn.Name = "aboutbtn";
+            this.aboutbtn.Size = new System.Drawing.Size(75, 23);
+            this.aboutbtn.TabIndex = 2;
+            this.aboutbtn.Text = "About";
+            this.aboutbtn.UseVisualStyleBackColor = true;
+            this.aboutbtn.Click += new System.EventHandler(this.aboutbtn_click);
             // 
             // button2
             // 
@@ -62,11 +60,26 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Info;
+            this.button1.BackgroundImage = global::Market_Otomasyonu.Properties.Resources.admin;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(12, 29);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 120);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Yönetici";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Bakkalite
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 192);
+            this.ClientSize = new System.Drawing.Size(333, 238);
+            this.Controls.Add(this.aboutbtn);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Bakkalite";
@@ -79,6 +92,7 @@
         #endregion
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button aboutbtn;
     }
 }
 
