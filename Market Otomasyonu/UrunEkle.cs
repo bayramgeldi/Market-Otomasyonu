@@ -21,5 +21,10 @@ namespace Market_Otomasyonu
         {
 
         }
+
+        private void UrunEkle_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -26,5 +26,11 @@ namespace Market_Otomasyonu
         {
 
         }
+
+        private void ürünEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UrunEkle yeniurun = new UrunEkle();
+            yeniurun.ShowDialog();
+        }
     }
 }
