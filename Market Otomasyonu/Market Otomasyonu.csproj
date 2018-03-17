@@ -101,6 +101,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UrunEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunEkle.Designer.cs">
+      <DependentUpon>UrunEkle.cs</DependentUpon>
+    </Compile>
     <Compile Include="_market_otomasyonuDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -134,6 +140,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UrunEkle.resx">
+      <DependentUpon>UrunEkle.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
