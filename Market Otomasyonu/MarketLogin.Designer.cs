@@ -30,8 +30,8 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.telno = new System.Windows.Forms.TextBox();
+            this.tckimlikno = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -57,19 +57,19 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox2
+            // telno
             // 
-            this.textBox2.Location = new System.Drawing.Point(214, 116);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(173, 20);
-            this.textBox2.TabIndex = 9;
+            this.telno.Location = new System.Drawing.Point(214, 116);
+            this.telno.Name = "telno";
+            this.telno.Size = new System.Drawing.Size(173, 20);
+            this.telno.TabIndex = 9;
             // 
-            // textBox1
+            // tckimlikno
             // 
-            this.textBox1.Location = new System.Drawing.Point(214, 65);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(173, 20);
-            this.textBox1.TabIndex = 8;
+            this.tckimlikno.Location = new System.Drawing.Point(214, 65);
+            this.tckimlikno.Name = "tckimlikno";
+            this.tckimlikno.Size = new System.Drawing.Size(173, 20);
+            this.tckimlikno.TabIndex = 8;
             // 
             // label2
             // 
@@ -95,12 +95,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(421, 238);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.telno);
+            this.Controls.Add(this.tckimlikno);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "MarketLogin";
+            this.ShowIcon = false;
             this.Text = "Market Giriş Paneli";
             this.Load += new System.EventHandler(this.MarketLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -113,8 +114,8 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox telno;
+        private System.Windows.Forms.TextBox tckimlikno;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

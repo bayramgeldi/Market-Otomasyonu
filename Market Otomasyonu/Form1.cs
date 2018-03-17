@@ -32,12 +32,14 @@ namespace Market_Otomasyonu
         private void button2_Click(object sender, EventArgs e)
         {
             MarketLogin market = new MarketLogin();
+            this.Hide();
             market.ShowDialog();
         }
 
         private void aboutbtn_click(object sender, EventArgs e)
         {
             hakkinda about = new hakkinda();
+            this.Hide();
             about.ShowDialog();
         }
     }

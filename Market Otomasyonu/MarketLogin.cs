@@ -30,15 +30,20 @@ namespace Market_Otomasyonu
             SqlConnection cnn ;
             connetionString = "Data Source=BAYRAMGELDI-PC\\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;Initial Catalog=market-otomasyonu";
             cnn = new SqlConnection(connetionString);
-            try
+            string query = "Select * from marketsahibi Where tcno = '" + tckimlikno.Text.Trim() + "' and telno = '" + telno.Text.Trim() + "'";
+            SqlDataAdapter sda = new SqlDataAdapter(query, cnn);
+            DataTable dtbl = new DataTable();
+            sda.Fill(dtbl);
+
+            if (dtbl.Rows.Count == 1)
             {
-                cnn.Open();
-                MessageBox.Show ("Connection Open ! ");
-                cnn.Close();
+                marketpaneli mrkpaneli = new marketpaneli();
+                this.Hide();
+                mrkpaneli.Show();
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("Can not open connection ! ");
+                MessageBox.Show("Check your username and password");
             }
 
         }
