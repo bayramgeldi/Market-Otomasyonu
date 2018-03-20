@@ -40,10 +40,24 @@ namespace Market_Otomasyonu
                 marketpaneli mrkpaneli = new marketpaneli();
                 this.Hide();
                 mrkpaneli.Show();
+
+
+                VeriTabaniSorunuCozulduktenSonraSilinecektir();
+
             }
             else
             {
                 MessageBox.Show("Check your username and password");
+
+
+
+                MessageBox.Show("Veri Tabanini bayram disinda gorebilen var midir ?");
+            }
+
+
+            private static void VeriTabaniSorunuCozulduktenSonraSilinecektir()
+            {
+                MessageBox.Show("Veri Tabanini bayram disinda gorebilen var midir ?");
             }
 
         }
