@@ -42,7 +42,7 @@ namespace Market_Otomasyonu
                 mrkpaneli.Show();
 
 
-                VeriTabaniSorunuCozulduktenSonraSilinecektir();
+               
 
             }
             else
@@ -51,14 +51,8 @@ namespace Market_Otomasyonu
 
 
 
-                MessageBox.Show("Veri Tabanini bayram disinda gorebilen var midir ?");
             }
 
-
-            private static void VeriTabaniSorunuCozulduktenSonraSilinecektir()
-            {
-                MessageBox.Show("Veri Tabanini bayram disinda gorebilen var midir ?");
-            }
 
         }
     }
